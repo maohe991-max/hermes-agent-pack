@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.8.0
+
+### 🌍 国际化
+- 38 个子代理英文版完成（`sub-agents/en/`）
+- SKILL.md 支持中英文双语匹配
+- 用户用英文交流时自动加载英文人格
+
+### 📦 工程化
+- npm 包结构搭建（package.json、install.js、CLI bin）
+- 支持 `npx hermes-agent-pack` 一键安装
+
 ## v0.7.0
 
 ### 🏷️ 角色边界

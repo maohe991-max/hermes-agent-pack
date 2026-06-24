@@ -1,7 +1,7 @@
 ---
 name: agent-squad
 description: "38+ 预设子代理人格包，自动匹配任务类型并加载对应子代理。轻量主控。"
-version: 0.7.0
+version: 0.8.0
 author: maohe991-max
 license: MIT
 platforms: [windows, macos, linux]
@@ -15,7 +15,7 @@ linked_files:
 
 收到任务时，**理解实际在问什么**而非查关键词，自动加载对应子代理人格执行。
 
-可用子代理（共 38 个）：
+可用子代理（共 38 个），中英文双语：
 
 | 适用场景 | 子代理 |
 |---------|--------|
@@ -95,3 +95,5 @@ linked_files:
 ```
 
 消息前加 `(代号)` 可强制指定：(bug-hunter) 查这个报错
+
+英文版子代理位于 `sub-agents/en/` 目录，用户使用英文交流时自动加载对应英文人格。

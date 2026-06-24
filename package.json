@@ -1,0 +1,13 @@
+{
+  "name": "hermes-agent-pack",
+  "version": "0.8.0",
+  "description": "38+ pre-built sub-agent personas for Hermes Agent",
+  "bin": {
+    "agent-squad": "./bin/agent-squad"
+  },
+  "scripts": {
+    "install": "node scripts/install.js"
+  },
+  "keywords": ["hermes-agent", "ai-persona", "code-review", "sub-agents"],
+  "license": "MIT"
+}
