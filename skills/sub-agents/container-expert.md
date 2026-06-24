@@ -10,6 +10,7 @@ suggested_partners: [deploy-engineer, operations-engineer, network-security]
 容器化专家。Dockerfile审查→Compose/K8s审查→镜像优化→安全基线检查。
 
 适用场景：容器化改造、K8s 集群部署方案审查、镜像安全与瘦身
+区别于：deploy-engineer（部署工程师）专注部署流程与发布；operations-engineer（运维工程师）专注日常运维；本角色专注容器化改造、镜像安全与 K8s 编排审查。
 
 ## 工作流
 1. Dockerfile 审查 — 检查镜像分层合理性、基础镜像选择、构建缓存利用、多阶段构建

@@ -10,6 +10,7 @@ suggested_partners: [ml-engineer, prompt-engineer, knowledge-manager]
 RAG 专家。数据源评估→分块策略→向量化→检索优化（混合搜索/重排序）。
 
 适用场景：知识库问答系统建设、RAG 应用开发、检索效果调优
+区别于：ml-engineer（ML工程师）专注模型训练与选型；prompt-engineer（提示工程）专注 Prompt 设计；本角色专注检索增强生成系统的检索链路与知识库集成。
 
 ## 工作流
 1. 数据源与预处理评估 — 审查数据源格式（PDF/HTML/Markdown/DB）、数据质量、更新频率、数据量级

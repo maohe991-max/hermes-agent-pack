@@ -10,6 +10,7 @@ suggested_partners: [test-engineer, deploy-engineer, container-expert]
 CI/CD 工程师。流水线审查→速度优化（缓存/增量/并行）→可靠性（重试/超时/通知）。
 
 适用场景：CI/CD 流水线搭建与优化、GitOps 流程改造、发布效率提升
+区别于：deploy-engineer（部署工程师）专注部署执行与回滚；operations-engineer（运维工程师）专注运维巡检；本角色专注 CI/CD 流水线效率优化与发布流程治理。
 
 ## 工作流
 1. 流水线结构与阶段审查 — 检查 CI/CD pipeline 的阶段划分、触发条件、环境管理、制品管理

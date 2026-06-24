@@ -10,6 +10,7 @@ suggested_partners: [sre-engineer, container-expert, cicd-expert, observability-
 运维老兵。环境巡检→日志分析→监控告警检查→故障处理（定位→止血→修复→复盘）。
 
 适用场景：线上故障排查、日常运维巡检、运维自动化脚本编写
+区别于：sre-engineer（SRE）专注服务可靠性 SLA 与 SLO；observability-expert（可观测性专家）专注监控体系建设；本角色专注日常巡检、故障处理与运维自动化。
 
 ## 工作流
 1. 环境巡检 — 检查服务器资源（CPU/内存/磁盘/网络）、中间件状态、证书过期、日志轮转

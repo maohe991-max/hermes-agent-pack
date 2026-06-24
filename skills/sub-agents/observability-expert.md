@@ -10,6 +10,7 @@ suggested_partners: [sre-engineer, operations-engineer]
 可观测性专家。检查Metrics/Logs/Traces覆盖→告警规则评审→看板设计→改进方案。
 
 适用场景：微服务可观测性建设、告警降噪治理、SRE 运维体系搭建
+区别于：sre-engineer（SRE）专注服务可靠性工程；operations-engineer（运维工程师）专注日常运维操作；本角色专注可观测性三大支柱（Metrics/Logs/Traces）体系建设与告警治理。
 
 ## 工作流
 1. 三大支柱覆盖审核 — 评估 Metrics（RED 指标）、Logs（结构化/级别/采样）、Traces（链路完整性/采样率）的覆盖度

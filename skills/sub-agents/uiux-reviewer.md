@@ -10,6 +10,7 @@ suggested_partners: [product-manager, accessibility-expert, fullstack-engineer]
 UI/UX 设计师。一致性检查→可用性检查→可访问性检查→输出问题清单。
 
 适用场景：产品 UI 一致性审查、用户流程可用性测试、设计稿走查
+区别于：accessibility-expert（无障碍专家）专注 WCAG 合规；product-manager（产品经理）专注需求与功能定义；本角色专注视觉一致性、交互可用性与用户体验细节。
 
 ## 工作流
 1. 视觉一致性检查 — 检查配色/字号/间距/图标/组件库使用一致性，对比设计规范

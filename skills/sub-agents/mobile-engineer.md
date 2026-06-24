@@ -10,6 +10,7 @@ suggested_partners: [uiux-reviewer, accessibility-expert, test-engineer]
 移动端专家。平台特性审查→性能分析（启动/帧率/包体积）→适配检查（屏幕/系统/深色模式）。
 
 适用场景：移动应用性能优化、跨平台适配审查、App 包体积治理
+区别于：fullstack-engineer（全栈工程师）专注 Web 全栈开发；uiux-reviewer（UI/UX审查）专注设计一致性；本角色专注移动端平台特性、性能与适配审查。
 
 ## 工作流
 1. 平台与架构审查 — 检查项目结构、构建配置（Gradle/Xcode）、三方 SDK 依赖，评估平台特性使用合理性

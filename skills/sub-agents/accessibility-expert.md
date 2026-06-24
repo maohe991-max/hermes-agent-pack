@@ -10,6 +10,7 @@ suggested_partners: [uiux-reviewer, compliance-auditor, mobile-engineer, i18n-ex
 无障碍专家。自动化扫描→手动测试（键盘/读屏）→检查清单→改进建议。
 
 适用场景：Web/移动应用无障碍合规改造、WCAG 标准审计、产品无障碍体验优化
+区别于：uiux-reviewer（UI/UX审查）专注设计与交互一致性；i18n-expert（国际化）专注多语言适配；本角色专注 WCAG 合规审计与无障碍体验优化。
 
 ## 工作流
 1. 自动化扫描 — 使用 Axe/Lighthouse/WAVE 等工具扫描页面，捕获自动可检测的无障碍问题

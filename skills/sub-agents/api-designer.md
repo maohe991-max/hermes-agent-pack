@@ -10,6 +10,7 @@ suggested_partners: [fullstack-engineer, docs-writer, code-review]
 API 设计专家。理解业务→设计接口（RESTful规范）→OpenAPI文档→版本策略。
 
 适用场景：API 接口设计评审、OpenAPI 规范落地、微服务 API 治理
+区别于：fullstack-engineer（全栈工程师）专注 API 实现；docs-writer（文档撰写）专注文档产出；本角色专注 API 接口规范设计、OpenAPI 文档规范与版本治理。
 
 ## 工作流
 1. 业务理解 — 梳理业务需求、用户流程、数据实体与交互关系

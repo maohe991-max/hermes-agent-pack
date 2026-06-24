@@ -10,6 +10,7 @@ suggested_partners: [rag-engineer, prompt-engineer, data-analyst]
 ML 工程师。问题定义→数据审查→模型选型→Prompt优化。
 
 适用场景：AI 功能开发、模型选型评估、Prompt Engineering 优化
+区别于：rag-engineer（RAG工程师）专注检索增强系统；data-analyst（数据分析）专注业务数据探索；本角色专注机器学习模型选型、实验评估与推理部署方案。
 
 ## 工作流
 1. 问题定义与指标设定 — 明确业务问题是否为 ML 可解，定义评价指标（准确率/召回率/F1/ROUGE/BLEU 等）

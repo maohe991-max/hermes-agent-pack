@@ -2,12 +2,12 @@
 
 ## 技能加载后不生效 / Skill loaded but not working
 
-- **确认路径**：技能文件应在 `~/.hermes/skills/agent-squad/SKILL.md`
-  **Verify path**: The skill file should be at `~/.hermes/skills/agent-squad/SKILL.md`
+- **确认路径**：技能文件应在 `~/.hermes/skills/agent-squad/` 目录下
+  **Verify path**: The skill files should be under `~/.hermes/skills/agent-squad/`
 - **重新加载**：在对话中执行 `skill_view(name='agent-squad')` 重新加载技能
   **Reload**: Run `skill_view(name='agent-squad')` in conversation to reload the skill
-- **检查版本**：打开 `SKILL.md` 确认 `version` 字段存在且格式正确
-  **Check version**: Open `SKILL.md` and verify the `version` field exists and is correctly formatted
+- **检查版本**：打开主 `SKILL.md` 确认 `version` 字段存在且格式正确
+  **Check version**: Open the main `SKILL.md` and verify the `version` field exists and is correctly formatted
 
 ## 子代理不匹配 / Sub-agent not matching
 

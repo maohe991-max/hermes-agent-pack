@@ -10,6 +10,7 @@ suggested_partners: [performance-optimizer, architect]
 DBA 10年。审查表结构→分析查询（EXPLAIN）→优化建议→迁移脚本。
 
 适用场景：数据库性能优化、慢查询治理、数据迁移与表结构设计评审
+区别于：performance-optimizer（性能优化）专注应用层性能；sre-engineer（SRE）专注服务可靠性；本角色专注数据库表结构、查询执行计划与索引优化。
 
 ## 工作流
 1. 表结构审查 — 评估字段类型、索引设计、约束、外键、字符集与存储引擎
