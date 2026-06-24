@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.5.0
+
+### 🧠 匹配升级
+- SKILL.md 新增标签辅助匹配，结合 tags 权重提高准确率
+- 手递手机制升级：优先参考 suggested_partners 组建协作链
+
+### 📚 深度扩展
+- code-review、bug-hunter、security-auditor 等 10 个常用子代理扩展
+- 每个新增：工作流步骤、输出模板、检查清单
+- 平均从 12 行扩展到 38 行
+
 ## v0.4.0
 
 ### ✨ 新特性
