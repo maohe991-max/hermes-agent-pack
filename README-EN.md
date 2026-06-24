@@ -1,6 +1,6 @@
 # Hermes Agent Squad
 
-[![Version](https://img.shields.io/badge/version-0.1.2-blue)](https://github.com/maohe991-max/hermes-agent-pack)
+[![Version](https://img.shields.io/badge/version-0.1.3-blue)](https://github.com/maohe991-max/hermes-agent-pack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack)](https://github.com/maohe991-max/hermes-agent-pack/stargazers)
 [![Sub-Agents](https://img.shields.io/badge/sub--agents-35+-orange)](skills/sub-agents)
