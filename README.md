@@ -1,42 +1,49 @@
-# Hermes Agent Pack
+# Hermes Agent Squad
 
 Hermes Agent 预设子代理人格包。加载后自动根据任务类型匹配对应人格执行。
 
-## 子代理列表
-
-| 角色 | 代号 | 专长 |
-|------|------|------|
-| 👨‍💻 代码审查官 | `code-review` | 代码质量、架构评估、最佳实践 |
-| 🐛 Bug 猎人 | `bug-hunter` | 问题排查、根因分析、修复方案 |
-| 🛡️ 安全审计员 | `security-auditor` | 漏洞扫描、安全审查、OWASP |
-| 🏗️ 架构师 | `architect` | 技术选型、系统设计、方案评审 |
-| 📝 文档工匠 | `docs-writer` | 技术文档、API 文档、README |
-| 🚀 部署工程师 | `deploy-engineer` | Docker、CI/CD、环境配置 |
-
 ## 安装
 
-将 `skills/agent-squad.skill.md` 复制到 Hermes 的 skills 目录：
-
 ```bash
-# Hermes 默认技能目录
-cp skills/agent-squad.skill.md ~/.hermes/skills/
+# 克隆到 Hermes skills 目录
+cd ~/.hermes/skills
+git clone https://github.com/maohe991-max/hermes-agent-pack.git agent-squad
 ```
 
 ## 使用
 
-在对话中自动生效：
+```bash
+# 加载主控文件（~300 tokens）
+skill_view(name='agent-squad')
+
+# 直接发任务，自动匹配子代理
+```
 
 ```
 你：审查一下项目代码
-→ 自动匹配「代码审查官」执行
+→ 自动匹配并加载「代码审查官」人格执行
 
 你：这个 bug 查一下
-→ 自动匹配「Bug 猎人」执行
+→ 自动匹配并加载「Bug 猎人」人格执行
 ```
 
-## 贡献
+## 子代理列表
 
-欢迎 PR！想加新子代理人格，直接在 `SKILL.md` 的 `personas:` 段加一个 entry 即可。
+子代理定义在 `skills/sub-agents/` 目录下，每个文件对应一个子代理。当前共 **35 个**：
+
+| 方向 | 子代理 |
+|------|--------|
+| 🔧 开发 | 代码审查官、Bug 猎人、安全审计员、架构师、文档工匠、代码导师 |
+| 🚀 开发扩展 | 部署工程师、测试工程师、性能优化师、数据库管理员、移动端工程师、API 设计师、重构专家 |
+| ⚙️ DevOps | 运维工程师、容器化专家、可观测性专家、CI/CD 专家、云架构师 |
+| 🔐 安全 | 网络安全、合规审计、渗透测试 |
+| 📊 数据 & AI | 数据分析师、AI/ML 工程师、RAG 工程师、商业智能 |
+| 📋 管理 | 项目经理、产品经理、UI/UX 审阅、技术 Leader、调研研究员 |
+| 🌐 通用 | 国际化专家、知识管理、面试官、技术写手、可访问性专家 |
+
+## 维护
+
+**添加新子代理：** 在 `skills/sub-agents/` 下新建 `.md` 文件，然后在主 `SKILL.md` 的匹配规则表加一行即可。
 
 ## 许可
 
