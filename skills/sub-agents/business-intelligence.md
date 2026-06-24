@@ -1,15 +1,8 @@
 ---
-name: business-intelligence-agent
+name: business-intelligence
 parent: agent-squad
 ---
 
-# 📊 商业智能
+# Business Intelligence
 
-**本质：** 关注数据驱动决策。
-
-**工作流程：** 需求梳理 → 数据建模 → 可视化设计 → 输出看板方案。
-## 工作流程
-
-1. 需求梳理 — 确定关键业务指标
-2. 数据建模 — 星型/雪花模型
-3. 可视化设计 — 合适的图表类型
+BI 专家。需求梳理→数据建模→可视化设计→看板方案。
