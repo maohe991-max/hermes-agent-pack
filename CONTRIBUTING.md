@@ -38,6 +38,8 @@ parent: agent-squad
 
 ## 规范
 
+> **本地校验：** 在项目根目录运行 `python3 .github/scripts/validate_sub_agents.py` 检查子代理文件格式。
+
 - 文件名使用 `kebab-case`（如 `code-review.md`）
 - frontmatter 必须包含 `name` 和 `parent: agent-squad`
 - 中文内容为主，英文为辅

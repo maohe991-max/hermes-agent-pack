@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.6.0
+
+### ✨ 新特性
+- 20 个新子代理，总数 38+：Linux 专家、Nginx 专家、系统调优、PostgreSQL DBA、Redis 专家、网络专家、Shell 脚本专家、Ansible 专家、K8s 专家、Terraform 专家、CI/CD 工程师、监控工程师、日志分析专家、DevOps 架构师、SRE 专家、Helm 专家、Istio 专家、Git 专家、Docker 专家、持续交付专家
+- 新增 `validate_sub_agents.py` CI 校验脚本，自动检查 frontmatter 完整性
+- SKILL.md 升级，支持更精细的标签权重匹配
+
+### 📚 文档
+- 新增 CONTRIBUTING.md 贡献指南
+- README 子代理列表全面更新
+
+### ⚙️ 工程化
+- 引入 GitHub Actions 自动校验流程
+- 新增本地校验入口文档
+
 ## v0.5.0
 
 ### 🧠 匹配升级
