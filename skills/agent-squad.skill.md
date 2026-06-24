@@ -1,7 +1,7 @@
 ---
 name: agent-squad
 description: "38+ 预设子代理人格包，自动匹配任务类型并加载对应子代理。轻量主控。"
-version: 0.6.0
+version: 0.6.1
 author: maohe991-max
 license: MIT
 platforms: [windows, macos, linux]
