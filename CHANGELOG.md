@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.2
+
+### 📝 文档
+- 更新 README：反映三层判断逻辑、准确 token 成本
+- 清理过时的 `scripts/generate-table.py`（主文件已无匹配表）
+- 添加故障排查指南
+
 ## v0.1.1
 
 ### 🐛 修复
