@@ -1,0 +1,36 @@
+name: Release
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Count sub-agents
+        run: |
+          COUNT=$(ls -1 skills/sub-agents/*.md 2>/dev/null | wc -l)
+          echo "AGENTS=$COUNT" >> $GITHUB_ENV
+      - name: Generate Release Notes
+        run: |
+          cat <<EOF > release.md
+          ## Hermes Agent Squad v${{ github.ref_name }}
+
+          🤖 **${{ env.AGENTS }} 个子代理**
+
+          安装：
+          \`\`\`bash
+          curl -fsSL https://raw.githubusercontent.com/maohe991-max/hermes-agent-pack/main/install.sh | bash
+          \`\`\`
+
+          完整子代理列表: skills/sub-agents/
+          EOF
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: release.md
+          name: v${{ github.ref_name }}

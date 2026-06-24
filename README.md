@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/sub--agents-35+-orange" alt="35+ Sub-Agents" />
 </p>
 
+<p align="center">
+  <img src="https://api.star-history.com/svg?repos=maohe991-max/hermes-agent-pack&type=Date" width="600" alt="Star History" />
+</p>
+
 Hermes Agent 预设子代理人格包。加载后自动根据任务类型匹配对应人格执行。
 
 ## 安装
