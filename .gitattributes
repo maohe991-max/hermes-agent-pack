@@ -1,0 +1,11 @@
+# Normalize line endings
+* text=auto
+
+# Explicitly declare file types
+*.md text
+*.sh text
+*.py text
+*.yml text
+*.yaml text
+*.json text
+*.md text diff=markdown

@@ -1,5 +1,22 @@
 # Changelog
 
+## v0.6.2
+
+### 🐛 修复
+- README 表格补充 fullstack-engineer、sre-engineer、prompt-engineer
+- 修复 27 条缺失的 suggested_partners 反向引用
+- 修复 code-reviewer.md 文件名笔误
+- 统一 ML Engineer、UI/UX Reviewer 标题格式
+- tech-writer tags 改为 writing
+
+## v0.6.1
+
+### 🐛 修复
+- TROUBLESHOOTING.md 文件名示例错误（code-reviewer → code-review）
+- README-EN.md 强制指定示例模糊
+- fullstack-engineer.md 工作流重复
+- 子代理标题大小写规范
+
 ## v0.6.0
 
 ### 📚 全员深度扩展
