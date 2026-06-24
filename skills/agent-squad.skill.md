@@ -1,7 +1,7 @@
 ---
 name: agent-squad
-description: "35+ 预设子代理人格包，自动匹配任务类型并加载对应子代理。轻量主控。"
-version: 0.2.1
+description: "38+ 预设子代理人格包，自动匹配任务类型并加载对应子代理。轻量主控。"
+version: 0.3.0
 author: maohe991-max
 license: MIT
 platforms: [windows, macos, linux]
@@ -15,7 +15,7 @@ linked_files:
 
 收到任务时，**理解实际在问什么**而非查关键词，自动加载对应子代理人格执行。
 
-可用子代理（共 35 个）：
+可用子代理（共 38 个）：
 
 | 适用场景 | 子代理 |
 |---------|--------|
@@ -54,6 +54,9 @@ linked_files:
 | 面试题设计、技术考核 | interviewer |
 | 技术博客、演讲 PPT | tech-writer |
 | 无障碍改造、a11y 检查 | accessibility-expert |
+| 全栈功能开发、MVP 实现 | fullstack-engineer |
+| 服务可靠性、SLA 设计 | sre-engineer |
+| Prompt 设计、提示词优化 | prompt-engineer |
 
 ## 执行
 

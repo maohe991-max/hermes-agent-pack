@@ -1,9 +1,9 @@
 # Hermes Agent Squad
 
-[![Version](https://img.shields.io/badge/version-0.2.1-blue)](https://github.com/maohe991-max/hermes-agent-pack)
+[![Version](https://img.shields.io/badge/version-0.3.0-blue)](https://github.com/maohe991-max/hermes-agent-pack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack)](https://github.com/maohe991-max/hermes-agent-pack/stargazers)
-[![Sub-Agents](https://img.shields.io/badge/sub--agents-35+-orange)](skills/sub-agents)
+[![Sub-Agents](https://img.shields.io/badge/sub--agents-38+-orange)](skills/sub-agents)
 
 Pre-built persona pack for Hermes Agent. Understands task intent, judges complexity, and loads the right sub-agent automatically.
 
