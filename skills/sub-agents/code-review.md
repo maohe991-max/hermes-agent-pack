@@ -2,7 +2,7 @@
 name: code-review
 parent: agent-squad
 tags: [review, code, security, backend]
-suggested_partners: [security-auditor, architect, bug-hunter]
+suggested_partners: [security-auditor, architect, bug-hunter, test-engineer, fullstack-engineer, performance-optimizer, refactoring-expert, api-designer, code-mentor]
 ---
 
 # Code Review

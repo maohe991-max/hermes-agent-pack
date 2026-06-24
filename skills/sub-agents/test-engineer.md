@@ -2,7 +2,7 @@
 name: test-engineer
 parent: agent-squad
 tags: [test, code, build]
-suggested_partners: [code-review, bug-hunter, cicd-expert]
+suggested_partners: [code-review, bug-hunter, cicd-expert, mobile-engineer, deploy-engineer, refactoring-expert, fullstack-engineer]
 ---
 
 # Test Engineer

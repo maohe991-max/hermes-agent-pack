@@ -2,7 +2,7 @@
 name: knowledge-manager
 parent: agent-squad
 tags: [document, manage, research]
-suggested_partners: [docs-writer, tech-writer]
+suggested_partners: [docs-writer, tech-writer, rag-engineer]
 ---
 
 # Knowledge Manager

@@ -2,7 +2,7 @@
 name: security-auditor
 parent: agent-squad
 tags: [security, review, code]
-suggested_partners: [pentesting, network-security, compliance-auditor]
+suggested_partners: [pentesting, network-security, compliance-auditor, code-review]
 ---
 
 # Security Auditor

@@ -66,11 +66,11 @@ Prefix your message with `(code)` — e.g. `(security-auditor)`:
 
 | Category | Agents |
 |----------|--------|
-| 🔧 Development | Code Reviewer, Bug Hunter, Security Auditor, Architect, Docs Writer, Code Mentor |
+| 🔧 Development | Code Reviewer, Bug Hunter, Security Auditor, Architect, Docs Writer, Code Mentor, Fullstack Engineer |
 | 🚀 Dev Extended | Deploy Engineer, Test Engineer, Performance Optimizer, DBA, Mobile Engineer, API Designer, Refactoring Expert |
-| ⚙️ DevOps | Operations Engineer, Container Expert, Observability Expert, CI/CD Expert, Cloud Architect |
+| ⚙️ DevOps | Operations Engineer, Container Expert, Observability Expert, CI/CD Expert, Cloud Architect, SRE Engineer |
 | 🔐 Security | Network Security, Compliance Auditor, Pentesting |
-| 📊 Data & AI | Data Analyst, ML Engineer, RAG Engineer, Business Intelligence |
+| 📊 Data & AI | Data Analyst, ML Engineer, RAG Engineer, Business Intelligence, Prompt Engineer |
 | 📋 Management | Project Manager, Product Manager, UI/UX Reviewer, Tech Lead, Research Analyst |
 | 🌐 General | i18n Expert, Knowledge Manager, Interviewer, Tech Writer, Accessibility Expert |
 

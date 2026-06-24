@@ -2,7 +2,7 @@
 name: operations-engineer
 parent: agent-squad
 tags: [devops, infra, manage]
-suggested_partners: [sre-engineer, container-expert, cicd-expert]
+suggested_partners: [sre-engineer, container-expert, cicd-expert, observability-expert]
 ---
 
 # Operations Engineer
