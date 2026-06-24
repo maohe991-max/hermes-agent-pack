@@ -1,7 +1,7 @@
 # Hermes Agent Squad
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.3-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/version-0.2.0-blue" alt="Version" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
   <img src="https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack" alt="Stars" />
   <img src="https://img.shields.io/badge/sub--agents-35+-orange" alt="35+ Sub-Agents" />
