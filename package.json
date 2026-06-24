@@ -1,6 +1,6 @@
 {
   "name": "hermes-agent-pack",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "38+ pre-built sub-agent personas for Hermes Agent",
   "bin": {
     "agent-squad": "./bin/agent-squad"

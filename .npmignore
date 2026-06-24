@@ -1,0 +1,13 @@
+.git
+.github
+.gitignore
+.gitattributes
+CHANGELOG.md
+CONTRIBUTING.md
+TROUBLESHOOTING.md
+README-EN.md
+docs/
+examples/
+install.sh
+skills/agent-squad.skill.md
+skills/sub-agents/en/

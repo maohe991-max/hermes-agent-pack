@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.8.1
+
+### 📦 发布准备
+- 添加 .npmignore，准备 npm 发布
+- npm 徽章加入 README
+- release.yml 子代理计数明确只统计中文版
+
 ## v0.8.0
 
 ### 🌍 国际化

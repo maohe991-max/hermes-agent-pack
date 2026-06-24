@@ -1,10 +1,11 @@
 # Hermes Agent Squad
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.8.0-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/version-0.8.1-blue" alt="Version" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
   <img src="https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack" alt="Stars" />
   <img src="https://img.shields.io/badge/sub--agents-38+-orange" alt="38+ Sub-Agents" />
+  <a href="https://www.npmjs.com/package/hermes-agent-pack"><img src="https://img.shields.io/npm/v/hermes-agent-pack" alt="npm" /></a>
 </p>
 
 <p align="center">
@@ -88,6 +89,8 @@ skill_view(name='agent-squad')
 ## 维护
 
 **添加新子代理：** 在 `skills/sub-agents/` 下新建 `.md` 文件即可。主控文件自动通过语义理解匹配，无需修改。
+
+> 发布到 npm：`npm publish`（需要 npm 账号）
 
 ## 许可
 

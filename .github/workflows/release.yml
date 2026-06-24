@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Count sub-agents
+      - name: Count sub-agents (Chinese only, skip en/ subdirectory)
         run: |
           COUNT=$(ls -1 skills/sub-agents/*.md 2>/dev/null | wc -l)
           echo "AGENTS=$COUNT" >> $GITHUB_ENV
