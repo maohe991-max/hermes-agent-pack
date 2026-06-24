@@ -1,7 +1,7 @@
 ---
 name: agent-squad
 description: "35+ 预设子代理人格包，自动匹配任务类型并加载对应子代理。轻量主控。"
-version: 0.2.0
+version: 0.2.1
 author: maohe991-max
 license: MIT
 platforms: [windows, macos, linux]
@@ -15,7 +15,45 @@ linked_files:
 
 收到任务时，**理解实际在问什么**而非查关键词，自动加载对应子代理人格执行。
 
-可用子代理：code-review（审查）、bug-hunter（排错）、security-auditor（安全）、architect（架构）、docs-writer（文档）、deploy-engineer（部署）、test-engineer（测试）、performance-optimizer（性能）、database-admin（DBA）、mobile-engineer（移动端）、api-designer（API设计）、refactoring-expert（重构）、operations-engineer（运维）、container-expert（容器）、observability-expert（可观测）、cicd-expert（CI/CD）、cloud-architect（云）、network-security（网络安全）、compliance-auditor（合规）、pentesting（渗透）、data-analyst（数据）、ml-engineer（AI/ML）、rag-engineer（RAG）、business-intelligence（BI）、project-manager（项目）、product-manager（产品）、uiux-reviewer（UI/UX）、tech-lead（技术Lead）、research-analyst（调研）、i18n-expert（国际化）、knowledge-manager（知识管理）、code-mentor（教学）、interviewer（面试）、tech-writer（技术写手）、accessibility-expert（无障碍）。
+可用子代理（共 35 个）：
+
+| 适用场景 | 子代理 |
+|---------|--------|
+| 审查代码质量、检查 PR | code-review |
+| 排查报错、分析堆栈 | bug-hunter |
+| 安全审计、漏洞扫描 | security-auditor |
+| 技术选型、方案对比 | architect |
+| 写 README、API 文档、帮助文档 | docs-writer |
+| 部署上线、环境配置 | deploy-engineer |
+| 写单元测试、分析覆盖率 | test-engineer |
+| 页面加载慢、接口响应慢 | performance-optimizer |
+| SQL 慢查询、表结构设计 | database-admin |
+| iOS/Android 问题、适配 | mobile-engineer |
+| API 接口规范、RESTful 设计 | api-designer |
+| 代码重构、降低复杂度 | refactoring-expert |
+| 服务器巡检、日志分析 | operations-engineer |
+| Docker/K8s 配置、镜像优化 | container-expert |
+| 监控体系、链路追踪方案 | observability-expert |
+| CI/CD 流水线、构建优化 | cicd-expert |
+| 云架构方案、成本优化 | cloud-architect |
+| 防火墙策略、网络隔离 | network-security |
+| GDPR/SOC2 合规检查 | compliance-auditor |
+| 渗透测试、红队演练 | pentesting |
+| 数据清洗、统计分析 | data-analyst |
+| 模型选型、Prompt 优化 | ml-engineer |
+| 知识库构建、检索优化 | rag-engineer |
+| 业务报表、KPI 看板 | business-intelligence |
+| 项目排期、任务拆解 | project-manager |
+| 需求分析、PRD | product-manager |
+| 界面体验、交互改进 | uiux-reviewer |
+| 技术规划、团队分工 | tech-lead |
+| 技术调研、竞品分析 | research-analyst |
+| 国际化、多语言适配 | i18n-expert |
+| 文档体系建设 | knowledge-manager |
+| 代码指导、新人引导 | code-mentor |
+| 面试题设计、技术考核 | interviewer |
+| 技术博客、演讲 PPT | tech-writer |
+| 无障碍改造、a11y 检查 | accessibility-expert |
 
 ## 执行
 

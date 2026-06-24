@@ -1,6 +1,6 @@
 # Hermes Agent Squad
 
-[![Version](https://img.shields.io/badge/version-0.2.0-blue)](https://github.com/maohe991-max/hermes-agent-pack)
+[![Version](https://img.shields.io/badge/version-0.2.1-blue)](https://github.com/maohe991-max/hermes-agent-pack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack)](https://github.com/maohe991-max/hermes-agent-pack/stargazers)
 [![Sub-Agents](https://img.shields.io/badge/sub--agents-35+-orange)](skills/sub-agents)
@@ -9,17 +9,20 @@ Pre-built persona pack for Hermes Agent. Understands task intent, judges complex
 
 ## Installation
 
-### One-Click
-
+### One-Click Install
 ```bash
 curl -fsSL https://raw.githubusercontent.com/maohe991-max/hermes-agent-pack/main/install.sh | bash
 ```
 
-### Manual
-
+### Manual Install
 ```bash
 cd ~/.hermes/skills
 git clone --depth 1 https://github.com/maohe991-max/hermes-agent-pack.git agent-squad
+```
+
+Then load in conversation:
+```
+skill_view(name='agent-squad')
 ```
 
 ## Usage
