@@ -22,45 +22,50 @@ linked_files:
 
 ## 匹配规则
 
-用户消息匹配到关键词时，用 `skill_view(name='agent-squad', file_path='sub-agents/<代号>.md')` 加载对应子代理的人格和工作流程，然后代入角色执行。
+收到任务时，先理解任务**实际在问什么**，然后判断属于哪个领域，加载对应子代理。
 
-| 关键词 | 加载文件 |
+**理解优先级：** 任务本质 > 关键词。比如"这个页面加载太慢了"虽然没提"性能"二字，但明显是性能问题。
+
+关键词表作为参考，不是硬性规则：
+
+| 领域 | 典型任务 |
 |--------|---------|
-| 可访问性、a11y、WCAG | sub-agents/accessibility-expert.md |
-| API、接口、REST、GraphQL | sub-agents/api-designer.md |
-| 架构、设计、选型、技术决策 | sub-agents/architect.md |
-| bug、错误、报错、崩溃、调试 | sub-agents/bug-hunter.md |
-| 报表、看板、KPI | sub-agents/business-intelligence.md |
-| CI/CD、流水线、自动构建 | sub-agents/cicd-expert.md |
-| 云、AWS、Azure、GCP | sub-agents/cloud-architect.md |
-| 教学、指导、onboarding | sub-agents/code-mentor.md |
-| 审查、代码、质量、review | sub-agents/code-review.md |
-| 合规、GDPR、SOC2 | sub-agents/compliance-auditor.md |
-| 容器、K8s、编排 | sub-agents/container-expert.md |
-| 数据分析、统计、可视化 | sub-agents/data-analyst.md |
-| 数据库、SQL、表设计、迁移 | sub-agents/database-admin.md |
-| 部署、上线、Docker、服务器 | sub-agents/deploy-engineer.md |
-| 文档、README、写说明 | sub-agents/docs-writer.md |
-| 国际化、i18n、翻译 | sub-agents/i18n-expert.md |
-| 面试、面试题、考核 | sub-agents/interviewer.md |
-| 知识库、wiki、教程 | sub-agents/knowledge-manager.md |
-| AI、模型、训练、Prompt | sub-agents/ml-engineer.md |
-| 移动端、iOS、Android、小程序 | sub-agents/mobile-engineer.md |
-| 网络安全、防火墙、VPN | sub-agents/network-security.md |
-| 可观测性、日志、链路追踪 | sub-agents/observability-expert.md |
-| 运维、监控、告警、故障 | sub-agents/operations-engineer.md |
-| 渗透、红队、漏洞利用 | sub-agents/pentesting.md |
-| 性能、优化、加载慢、卡顿 | sub-agents/performance-optimizer.md |
-| 产品、需求、PRD、用户故事 | sub-agents/product-manager.md |
-| 项目、进度、排期、风险 | sub-agents/project-manager.md |
-| RAG、知识库、向量搜索 | sub-agents/rag-engineer.md |
-| 重构、迁移、技术债务 | sub-agents/refactoring-expert.md |
-| 调研、竞品、POC | sub-agents/research-analyst.md |
-| 安全、漏洞、渗透、OWASP | sub-agents/security-auditor.md |
-| 技术leader、roadmap | sub-agents/tech-lead.md |
-| 博客、演讲、白皮书 | sub-agents/tech-writer.md |
-| 测试、单元测试、覆盖率 | sub-agents/test-engineer.md |
-| UI、UX、界面、体验 | sub-agents/uiux-reviewer.md |
+| code-review | 审查一段代码、评估代码质量、检查某个文件 |
+| bug-hunter | 排查一个错误、分析堆栈、调查问题的根因 |
+| security-auditor | 做安全审计、检查漏洞、安全评估 |
+| architect | 评估方案、技术选型、架构设计 |
+| docs-writer | 写文档、补充注释、生成 README |
+| deploy-engineer | 部署上线、环境配置、发布检查 |
+| test-engineer | 写测试、分析覆盖率、测试策略 |
+| performance-optimizer | 性能优化、页面加载慢、接口响应慢 |
+| database-admin | 数据库查询慢、SQL 优化、表设计 |
+| mobile-engineer | 移动端适配、iOS/Android 问题 |
+| api-designer | 设计 API、接口规范、RESTful |
+| refactoring-expert | 代码重构、降低复杂度、清理技术债务 |
+| operations-engineer | 运维巡检、日志分析、监控告警 |
+| container-expert | Docker 优化、K8s 配置、镜像构建 |
+| observability-expert | 可观测性方案、链路追踪、监控体系 |
+| cicd-expert | CI/CD 流水线、构建优化、自动部署 |
+| cloud-architect | 云架构方案、成本优化、服务选型 |
+| network-security | 网络安全、防火墙策略、网络隔离 |
+| compliance-auditor | 合规检查、GDPR、SOC2 |
+| pentesting | 渗透测试、红队演练 |
+| data-analyst | 数据分析、数据可视化 |
+| ml-engineer | AI 模型选型、Prompt 优化、训练流程 |
+| rag-engineer | 知识库构建、检索优化 |
+| business-intelligence | 报表、看板、业务指标 |
+| project-manager | 项目排期、任务拆解、风险管理 |
+| product-manager | 需求分析、PRD、用户调研 |
+| uiux-reviewer | 界面体验、交互设计、可访问性 |
+| tech-lead | 技术规划、团队分工、技术决策 |
+| research-analyst | 技术调研、竞品分析、方案对比 |
+| i18n-expert | 国际化、多语言适配 |
+| knowledge-manager | 知识库整理、文档体系建设 |
+| code-mentor | 代码指导、新人引导、技术分享 |
+| interviewer | 技术面试、面试题设计 |
+| tech-writer | 技术文章、博客、技术分享 |
+| accessibility-expert | 无障碍检查、a11y 改造 |
+
 ## 强制指定
 
 在消息前加 `(code)` 格式可强制指定子代理：
@@ -72,7 +77,17 @@ linked_files:
 
 ## 执行流程
 
-1. 收到用户消息 → 匹配关键词 → 找到对应子代理
+1. 收到用户消息 → 理解任务**实际在问什么** → 判断领域 → 找到对应子代理
 2. 用 `skill_view(name='agent-squad', file_path='sub-agents/<代号>.md')` 加载人格
 3. 代入角色，按该子代理的流程执行
 4. 完成任务后输出结果
+
+### 判断示例
+
+| 用户说 | 理解 | 匹配 |
+|--------|------|------|
+| "这个页面打开好慢" | 性能问题 | performance-optimizer |
+| "这段代码看着不对劲" | 代码质量问题 | code-review |
+| "用户说数据对不上" | 数据/逻辑错误 | bug-hunter |
+| "想换数据库" | 架构决策 | architect |
+| "服务器老挂" | 运维问题 | operations-engineer |
