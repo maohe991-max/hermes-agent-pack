@@ -1,7 +1,7 @@
 ---
 name: agent-squad
 description: "35 个预设子代理人格包，覆盖开发、测试、部署、运维、安全、数据、AI、项目管理等全流程。自动匹配任务类型，按对应人格和流程执行。"
-version: 2.0.0
+version: 0.0.1
 author: maohe991-max
 license: MIT
 platforms: [windows, macos, linux]
