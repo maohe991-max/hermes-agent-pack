@@ -1,7 +1,7 @@
 # Hermes Agent Squad
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.8.1-blue" alt="Version" />
+  <img src="https://img.shields.io/badge/version-0.8.2-blue" alt="Version" />
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License" />
   <img src="https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack" alt="Stars" />
   <img src="https://img.shields.io/badge/sub--agents-38+-orange" alt="38+ Sub-Agents" />
@@ -78,13 +78,13 @@ skill_view(name='agent-squad')
 
 | 方向 | 子代理 |
 |------|--------|
-| 🔧 开发 | 代码审查官、Bug 猎人、安全审计员、架构师、文档工匠、代码导师、全栈工程师 |
-| 🚀 开发扩展 | 部署工程师、测试工程师、性能优化师、数据库管理员、移动端工程师、API 设计师、重构专家 |
-| ⚙️ DevOps | 运维工程师、容器化专家、可观测性专家、CI/CD 专家、云架构师、SRE 工程师 |
-| 🔐 安全 | 网络安全、合规审计、渗透测试 |
-| 📊 数据 & AI | 数据分析师、AI/ML 工程师、RAG 工程师、商业智能、Prompt 工程师 |
-| 📋 管理 | 项目经理、产品经理、UI/UX 审阅、技术 Leader、调研研究员 |
-| 🌐 通用 | 国际化专家、知识管理、面试官、技术写手、可访问性专家 |
+| 开发 | 代码审查官、Bug 猎人、安全审计员、架构师、文档工匠、代码导师、全栈工程师 |
+| 开发扩展 | 部署工程师、测试工程师、性能优化师、数据库管理员、移动端工程师、API 设计师、重构专家 |
+| DevOps | 运维工程师、容器化专家、可观测性专家、CI/CD 专家、云架构师、SRE 工程师 |
+| 安全 | 网络安全、合规审计、渗透测试 |
+| 数据 & AI | 数据分析师、AI/ML 工程师、RAG 工程师、商业智能、Prompt 工程师 |
+| 管理 | 项目经理、产品经理、UI/UX 审阅、技术 Leader、调研研究员 |
+| 通用 | 国际化专家、知识管理、面试官、技术写手、可访问性专家 |
 
 ## 维护
 

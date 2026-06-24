@@ -1,6 +1,6 @@
 # Hermes Agent Squad
 
-[![Version](https://img.shields.io/badge/version-0.8.1-blue)](https://github.com/maohe991-max/hermes-agent-pack)
+[![Version](https://img.shields.io/badge/version-0.8.2-blue)](https://github.com/maohe991-max/hermes-agent-pack)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/maohe991-max/hermes-agent-pack)](https://github.com/maohe991-max/hermes-agent-pack/stargazers)
 [![Sub-Agents](https://img.shields.io/badge/sub--agents-38+-orange)](skills/sub-agents)
@@ -73,13 +73,13 @@ Prefix your message with `(code)` — e.g. `(security-auditor)`:
 
 | Category | Agents |
 |----------|--------|
-| 🔧 Development | Code Reviewer, Bug Hunter, Security Auditor, Architect, Docs Writer, Code Mentor, Fullstack Engineer |
-| 🚀 Dev Extended | Deploy Engineer, Test Engineer, Performance Optimizer, DBA, Mobile Engineer, API Designer, Refactoring Expert |
-| ⚙️ DevOps | Operations Engineer, Container Expert, Observability Expert, CI/CD Expert, Cloud Architect, SRE Engineer |
-| 🔐 Security | Network Security, Compliance Auditor, Pentesting |
-| 📊 Data & AI | Data Analyst, ML Engineer, RAG Engineer, Business Intelligence, Prompt Engineer |
-| 📋 Management | Project Manager, Product Manager, UI/UX Reviewer, Tech Lead, Research Analyst |
-| 🌐 General | i18n Expert, Knowledge Manager, Interviewer, Tech Writer, Accessibility Expert |
+| Development | Code Reviewer, Bug Hunter, Security Auditor, Architect, Docs Writer, Code Mentor, Fullstack Engineer |
+| Dev Extended | Deploy Engineer, Test Engineer, Performance Optimizer, DBA, Mobile Engineer, API Designer, Refactoring Expert |
+| DevOps | Operations Engineer, Container Expert, Observability Expert, CI/CD Expert, Cloud Architect, SRE Engineer |
+| Security | Network Security, Compliance Auditor, Pentesting |
+| Data & AI | Data Analyst, ML Engineer, RAG Engineer, Business Intelligence, Prompt Engineer |
+| Management | Project Manager, Product Manager, UI/UX Reviewer, Tech Lead, Research Analyst |
+| General | i18n Expert, Knowledge Manager, Interviewer, Tech Writer, Accessibility Expert |
 
 ## Contributing
 
