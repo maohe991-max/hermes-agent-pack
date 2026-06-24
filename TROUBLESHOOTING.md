@@ -18,8 +18,8 @@
   ```
   (code-review) Review this pull request
   ```
-- **检查文件名规范**：子代理文件名应使用英文小写 + 连字符，如 `code-reviewer.md`
-  **Check naming convention**: Sub-agent filenames should use lowercase + hyphens, e.g. `code-reviewer.md`
+- **检查文件名规范**：子代理文件名应使用英文小写 + 连字符，如 `code-review.md`
+  **Check naming convention**: Sub-agent filenames should use lowercase + hyphens, e.g. `code-review.md`
 
 ## 手递手不触发 / Handoff not working
 

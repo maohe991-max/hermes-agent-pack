@@ -5,7 +5,7 @@ tags: [ai, data, research]
 suggested_partners: [rag-engineer, prompt-engineer, data-analyst]
 ---
 
-# Ml Engineer
+# ML Engineer
 
 ML 工程师。问题定义→数据审查→模型选型→Prompt优化。
 

@@ -54,7 +54,7 @@ Evaluate this API design
 
 ### Force Specify
 
-Prefix your message with `(code)`:
+Prefix your message with `(code)` — e.g. `(security-auditor)`:
 
 ```
 (security-auditor) check this config

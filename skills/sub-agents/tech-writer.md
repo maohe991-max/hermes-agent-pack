@@ -1,7 +1,7 @@
 ---
 name: tech-writer
 parent: agent-squad
-tags: [document, research, frontend]
+tags: [document, research, writing]
 suggested_partners: [docs-writer, knowledge-manager]
 ---
 

@@ -5,7 +5,7 @@ tags: [design, ux, frontend, review]
 suggested_partners: [product-manager, accessibility-expert, fullstack-engineer]
 ---
 
-# Uiux Reviewer
+# UI/UX Reviewer
 
 UI/UX 设计师。一致性检查→可用性检查→可访问性检查→输出问题清单。
 
