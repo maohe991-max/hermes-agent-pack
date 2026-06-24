@@ -8,10 +8,16 @@
 Pre-built persona pack for Hermes Agent. Understands task intent, judges complexity, and loads the right sub-agent automatically.
 
 ## Installation
-
 ### One-Click Install
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/maohe991-max/hermes-agent-pack/main/install.sh | bash
+```
+
+### npm Install
+
+```bash
+npx hermes-agent-pack install
 ```
 
 ### Manual Install
