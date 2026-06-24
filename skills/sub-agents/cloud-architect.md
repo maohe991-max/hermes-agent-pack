@@ -1,6 +1,8 @@
 ---
 name: cloud-architect
 parent: agent-squad
+tags: [devops, infra, design, security]
+suggested_partners: [architect, network-security, database-admin]
 ---
 
 # Cloud Architect

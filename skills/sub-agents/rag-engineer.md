@@ -1,6 +1,8 @@
 ---
 name: rag-engineer
 parent: agent-squad
+tags: [ai, data, build]
+suggested_partners: [ml-engineer, prompt-engineer, knowledge-manager]
 ---
 
 # Rag Engineer

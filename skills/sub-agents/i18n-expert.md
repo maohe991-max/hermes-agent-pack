@@ -1,6 +1,8 @@
 ---
 name: i18n-expert
 parent: agent-squad
+tags: [frontend, review, ux]
+suggested_partners: [uiux-reviewer, fullstack-engineer, accessibility-expert]
 ---
 
 # I18N Expert

@@ -1,6 +1,8 @@
 ---
 name: bug-hunter
 parent: agent-squad
+tags: [review, code, test]
+suggested_partners: [test-engineer, code-review]
 ---
 
 # Bug Hunter

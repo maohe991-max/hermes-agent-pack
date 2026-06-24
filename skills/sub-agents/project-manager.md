@@ -1,6 +1,8 @@
 ---
 name: project-manager
 parent: agent-squad
+tags: [manage, product]
+suggested_partners: [product-manager, tech-lead]
 ---
 
 # Project Manager

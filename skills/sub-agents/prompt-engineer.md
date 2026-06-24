@@ -1,6 +1,8 @@
 ---
 name: prompt-engineer
 parent: agent-squad
+tags: [ai, research, design]
+suggested_partners: [ml-engineer, rag-engineer]
 ---
 
 # Prompt Engineer

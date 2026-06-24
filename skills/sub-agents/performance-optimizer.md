@@ -1,6 +1,8 @@
 ---
 name: performance-optimizer
 parent: agent-squad
+tags: [backend, review, code]
+suggested_partners: [database-admin, code-review, sre-engineer]
 ---
 
 # Performance Optimizer

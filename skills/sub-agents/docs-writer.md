@@ -1,6 +1,8 @@
 ---
 name: docs-writer
 parent: agent-squad
+tags: [document, frontend, build]
+suggested_partners: [tech-writer, knowledge-manager, api-designer]
 ---
 
 # Docs Writer

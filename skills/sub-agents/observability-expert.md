@@ -1,6 +1,8 @@
 ---
 name: observability-expert
 parent: agent-squad
+tags: [devops, infra, data]
+suggested_partners: [sre-engineer, operations-engineer]
 ---
 
 # Observability Expert

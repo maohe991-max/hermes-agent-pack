@@ -1,6 +1,8 @@
 ---
 name: container-expert
 parent: agent-squad
+tags: [devops, infra, security]
+suggested_partners: [deploy-engineer, operations-engineer, network-security]
 ---
 
 # Container Expert

@@ -1,6 +1,8 @@
 ---
 name: business-intelligence
 parent: agent-squad
+tags: [data, research, manage]
+suggested_partners: [data-analyst, product-manager]
 ---
 
 # Business Intelligence

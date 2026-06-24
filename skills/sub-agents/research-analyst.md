@@ -1,6 +1,8 @@
 ---
 name: research-analyst
 parent: agent-squad
+tags: [research, document, manage]
+suggested_partners: [product-manager, architect]
 ---
 
 # Research Analyst

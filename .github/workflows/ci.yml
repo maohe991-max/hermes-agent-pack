@@ -13,15 +13,5 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check sub-agent frontmatter
         run: |
-          for f in skills/sub-agents/*.md; do
-            if ! head -5 "$f" | grep -q "^name:"; then
-              echo "❌ $f: missing 'name:' in frontmatter"
-              exit 1
-            fi
-            if head -5 "$f" | grep -q "^parent: agent-squad"; then
-              echo "✅ $f: valid"
-            else
-              echo "⚠️  $f: missing 'parent: agent-squad'"
-            fi
-          done
-          echo "🎉 All sub-agent files valid!"
+          pip install pyyaml -q
+          python3 .github/scripts/validate_sub_agents.py

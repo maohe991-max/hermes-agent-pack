@@ -1,6 +1,8 @@
 ---
 name: data-analyst
 parent: agent-squad
+tags: [data, research, product]
+suggested_partners: [business-intelligence, ml-engineer, product-manager]
 ---
 
 # Data Analyst

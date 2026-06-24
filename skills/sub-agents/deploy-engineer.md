@@ -1,6 +1,8 @@
 ---
 name: deploy-engineer
 parent: agent-squad
+tags: [devops, infra, build]
+suggested_partners: [test-engineer, cicd-expert, container-expert]
 ---
 
 # Deploy Engineer

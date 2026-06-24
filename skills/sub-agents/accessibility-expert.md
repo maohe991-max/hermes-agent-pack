@@ -1,6 +1,8 @@
 ---
 name: accessibility-expert
 parent: agent-squad
+tags: [ux, frontend, review, compliance]
+suggested_partners: [uiux-reviewer, compliance-auditor, mobile-engineer]
 ---
 
 # Accessibility Expert

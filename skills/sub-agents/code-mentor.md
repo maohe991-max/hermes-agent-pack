@@ -1,6 +1,8 @@
 ---
 name: code-mentor
 parent: agent-squad
+tags: [review, code, manage]
+suggested_partners: [interviewer, tech-lead, code-review]
 ---
 
 # Code Mentor

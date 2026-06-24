@@ -1,6 +1,8 @@
 ---
 name: api-designer
 parent: agent-squad
+tags: [backend, design, build]
+suggested_partners: [fullstack-engineer, docs-writer, code-review]
 ---
 
 # Api Designer

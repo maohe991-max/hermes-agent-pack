@@ -1,6 +1,8 @@
 ---
 name: mobile-engineer
 parent: agent-squad
+tags: [mobile, frontend, build]
+suggested_partners: [uiux-reviewer, accessibility-expert, test-engineer]
 ---
 
 # Mobile Engineer

@@ -1,6 +1,8 @@
 ---
 name: sre-engineer
 parent: agent-squad
+tags: [devops, infra, review]
+suggested_partners: [operations-engineer, observability-expert]
 ---
 
 # Sre Engineer

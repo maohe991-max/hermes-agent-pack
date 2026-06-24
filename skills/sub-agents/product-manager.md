@@ -1,6 +1,8 @@
 ---
 name: product-manager
 parent: agent-squad
+tags: [manage, product, research]
+suggested_partners: [project-manager, architect, uiux-reviewer]
 ---
 
 # Product Manager

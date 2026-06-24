@@ -1,6 +1,8 @@
 ---
 name: network-security
 parent: agent-squad
+tags: [security, devops, infra]
+suggested_partners: [security-auditor, cloud-architect, pentesting]
 ---
 
 # Network Security

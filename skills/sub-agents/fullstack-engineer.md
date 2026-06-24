@@ -1,6 +1,8 @@
 ---
 name: fullstack-engineer
 parent: agent-squad
+tags: [frontend, backend, build]
+suggested_partners: [code-review, test-engineer, architect]
 ---
 
 # Fullstack Engineer

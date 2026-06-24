@@ -1,6 +1,8 @@
 ---
 name: compliance-auditor
 parent: agent-squad
+tags: [compliance, security, review]
+suggested_partners: [security-auditor, accessibility-expert]
 ---
 
 # Compliance Auditor

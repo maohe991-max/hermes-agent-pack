@@ -1,6 +1,8 @@
 ---
 name: refactoring-expert
 parent: agent-squad
+tags: [code, review, build]
+suggested_partners: [test-engineer, architect, code-review]
 ---
 
 # Refactoring Expert

@@ -1,6 +1,8 @@
 ---
 name: ml-engineer
 parent: agent-squad
+tags: [ai, data, research]
+suggested_partners: [rag-engineer, prompt-engineer, data-analyst]
 ---
 
 # Ml Engineer

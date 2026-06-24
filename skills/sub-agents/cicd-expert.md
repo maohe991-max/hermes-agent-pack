@@ -1,6 +1,8 @@
 ---
 name: cicd-expert
 parent: agent-squad
+tags: [devops, build, infra]
+suggested_partners: [test-engineer, deploy-engineer, container-expert]
 ---
 
 # Cicd Expert

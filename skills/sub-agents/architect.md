@@ -1,6 +1,8 @@
 ---
 name: architect
 parent: agent-squad
+tags: [design, backend, review]
+suggested_partners: [tech-lead, cloud-architect, database-admin]
 ---
 
 # Architect

@@ -1,6 +1,8 @@
 ---
 name: uiux-reviewer
 parent: agent-squad
+tags: [design, ux, frontend, review]
+suggested_partners: [product-manager, accessibility-expert, fullstack-engineer]
 ---
 
 # Uiux Reviewer

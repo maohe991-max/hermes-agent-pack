@@ -1,6 +1,8 @@
 ---
 name: database-admin
 parent: agent-squad
+tags: [database, backend, review]
+suggested_partners: [performance-optimizer, architect]
 ---
 
 # Database Admin

@@ -1,6 +1,8 @@
 ---
 name: tech-lead
 parent: agent-squad
+tags: [manage, review, backend]
+suggested_partners: [architect, product-manager, code-mentor]
 ---
 
 # Tech Lead

@@ -1,6 +1,8 @@
 ---
 name: interviewer
 parent: agent-squad
+tags: [manage, review, code]
+suggested_partners: [code-mentor, tech-lead]
 ---
 
 # Interviewer

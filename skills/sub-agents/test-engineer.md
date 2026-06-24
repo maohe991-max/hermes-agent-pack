@@ -1,6 +1,8 @@
 ---
 name: test-engineer
 parent: agent-squad
+tags: [test, code, build]
+suggested_partners: [code-review, bug-hunter, cicd-expert]
 ---
 
 # Test Engineer
